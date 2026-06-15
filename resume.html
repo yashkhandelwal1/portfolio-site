@@ -78,7 +78,7 @@
               <a href="https://www.linkedin.com/in/yash-khandelwal-067b54312/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
-          <button class="btn btn--filled resume-download" onclick="window.print()">
+          <button class="btn btn--filled resume-download">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
             Download PDF
           </button>
@@ -377,6 +377,27 @@
     </div>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"></script>
   <script src="script.js"></script>
+  <script>
+    document.querySelector('.resume-download').addEventListener('click', function(e) {
+      e.preventDefault();
+      var element = document.querySelector('main');
+      var btn = this;
+      btn.textContent = 'Generating...';
+      btn.disabled = true;
+      html2pdf().set({
+        margin: [10, 12, 10, 12],
+        filename: 'Yash_Khandelwal_Resume.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, letterRendering: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+      }).from(element).save().then(function() {
+        btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Download PDF';
+        btn.disabled = false;
+      });
+    });
+  </script>
 </body>
 </html>
