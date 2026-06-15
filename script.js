@@ -1,5 +1,5 @@
 /* ============================================
-   YASH KHANDELWAL — PORTFOLIO JS
+   YASH KHANDELWAL | PORTFOLIO JS
    ============================================ */
 
 (function () {

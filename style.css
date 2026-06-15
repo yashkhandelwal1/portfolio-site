@@ -1,5 +1,5 @@
 /* ============================================
-   YASH KHANDELWAL — PORTFOLIO
+   YASH KHANDELWAL | PORTFOLIO
    Modern dark minimal design
    ============================================ */
 
@@ -402,6 +402,16 @@ img {
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 20px;
+  list-style: disc;
+  padding-left: 1.2em;
+}
+
+.service-card__desc li {
+  margin-bottom: 6px;
+}
+
+.service-card__desc li:last-child {
+  margin-bottom: 0;
 }
 
 .service-card__tags {
