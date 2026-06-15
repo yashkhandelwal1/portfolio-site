@@ -560,8 +560,8 @@
   </a>
 
   <!-- HIDDEN RESUME FOR PDF GENERATION -->
-  <div id="resume-pdf-content" style="position:absolute;left:-9999px;top:0;">
-    <div style="font-family:'Inter',Arial,Helvetica,sans-serif;color:#1a1a1a;padding:36px 40px;width:794px;font-size:10px;line-height:1.55;box-sizing:border-box;">
+  <div id="resume-pdf-content" style="position:fixed;left:-9999px;top:0;width:794px;overflow:hidden;">
+    <div style="font-family:'Inter',Arial,Helvetica,sans-serif;color:#1a1a1a;padding:32px 38px;width:794px;font-size:10px;line-height:1.5;box-sizing:border-box;background:#fff;">
 
       <!-- HEADER -->
       <div style="text-align:center;margin-bottom:4px;">
@@ -764,14 +764,24 @@
     document.getElementById('resume-download-link').addEventListener('click', function(e) {
       e.preventDefault();
       var element = document.getElementById('resume-pdf-content').firstElementChild;
+      var clone = element.cloneNode(true);
+      clone.style.position = 'fixed';
+      clone.style.left = '0';
+      clone.style.top = '0';
+      clone.style.width = '794px';
+      clone.style.zIndex = '-9999';
+      clone.style.opacity = '0';
+      document.body.appendChild(clone);
       html2pdf().set({
         margin: 0,
         filename: 'Yash_Khandelwal_Resume.pdf',
         image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2, useCORS: true, letterRendering: true, width: 794 },
-        jsPDF: { unit: 'px', format: [794, 1123], orientation: 'portrait' },
+        html2canvas: { scale: 2, useCORS: true, letterRendering: true, scrollY: 0, windowWidth: 794 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
         pagebreak: { mode: ['css', 'legacy'] }
-      }).from(element).save();
+      }).from(clone).save().then(function() {
+        document.body.removeChild(clone);
+      });
     });
   </script>
 </body>
