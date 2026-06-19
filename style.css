@@ -478,6 +478,37 @@ img {
   gap: 8px;
 }
 
+/* --- WORK CARD HIGHLIGHTS --- */
+.work-card__highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.work-card__highlights li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: var(--fs-small);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.work-card__highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+
+.work-card__highlights li:last-child {
+  margin-bottom: 0;
+}
+
 /* --- WORK CARD GALLERY --- */
 .work-card__gallery {
   display: flex;
