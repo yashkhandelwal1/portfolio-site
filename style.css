@@ -478,6 +478,50 @@ img {
   gap: 8px;
 }
 
+/* --- WORK CARD GALLERY --- */
+.work-card__gallery {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 4px 0 16px;
+  margin-bottom: 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.work-card__gallery::-webkit-scrollbar {
+  height: 4px;
+}
+
+.work-card__gallery::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+  border-radius: 2px;
+}
+
+.work-card__gallery::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 2px;
+}
+
+.work-card__screenshot {
+  flex: 0 0 auto;
+  width: min(85%, 480px);
+  border-radius: var(--card-radius);
+  border: 1px solid var(--bg-tertiary);
+  scroll-snap-align: start;
+  transition: border-color var(--transition);
+}
+
+.work-card__screenshot:hover {
+  border-color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .work-card__screenshot {
+    width: 90%;
+  }
+}
+
 /* --- ABOUT --- */
 .about-grid {
   display: grid;
