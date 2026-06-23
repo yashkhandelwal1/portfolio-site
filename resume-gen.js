@@ -131,7 +131,8 @@ document.getElementById('resume-download-link').addEventListener('click', functi
     html2canvas: { scale: 2, useCORS: true, scrollY: 0 },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     pagebreak: { mode: ['css', 'legacy'] }
-  }).from(container.firstElementChild).save().then(function() {
+  }).from(container.firstElementChild).outputPdf('bloburl').then(function(url) {
+    window.open(url, '_blank');
     document.body.removeChild(container);
   });
 });
