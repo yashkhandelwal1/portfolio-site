@@ -6,7 +6,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   // HEADER
   + '<div style="text-align:center;margin-bottom:2px;">'
   + '<h1 style="font-size:26px;font-weight:700;margin:0 0 4px 0;">Yash Khandelwal</h1>'
-  + '<p style="font-size:10.5px;font-weight:500;color:#555;margin:0 0 7px 0;text-transform:uppercase;letter-spacing:3px;">Performance Marketing &amp; CRM Strategist</p>'
+  + '<p style="font-size:10.5px;font-weight:500;color:#555;margin:0 0 7px 0;text-transform:uppercase;letter-spacing:3px;">Media Buyer &amp; CRM Strategist</p>'
   + '<p style="font-size:9px;color:#555;margin:0;">Pune, India &nbsp; | &nbsp; yashkhandelwal1997@gmail.com &nbsp; | &nbsp; +91 77218 32029</p>'
   + '<p style="font-size:9px;margin:2px 0 0 0;"><a href="https://www.linkedin.com/in/yash-khandelwal-067b54312/" style="color:#b45309;">linkedin.com/in/yash-khandelwal-067b54312</a> &nbsp; | &nbsp; <a href="https://portfolio-site-ten-pied.vercel.app/" style="color:#b45309;">portfolio-site-ten-pied.vercel.app</a></p>'
   + '</div>'
@@ -16,7 +16,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   // PROFILE
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 5px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Profile</h2>'
-  + '<p style="margin:0;color:#333;font-size:9.5px;line-height:1.5;">Systems-first Performance Marketing &amp; CRM Strategist with multi-industry execution across <b>Real Estate, Preschools, D2C Fashion, Finance, Exports &amp; Agencies</b>. I design end-to-end acquisition engines across Meta &amp; Google Ads, connecting ads to tracking to CRM to automation to reporting. Every part measured, every rupee accounted for.</p>'
+  + '<p style="margin:0;color:#333;font-size:9.5px;line-height:1.5;">Systems-first Media Buyer &amp; CRM Strategist with multi-industry execution across <b>Real Estate, Preschools, D2C Fashion, Finance, Exports &amp; Agencies</b>. I design end-to-end acquisition engines across Meta &amp; Google Ads, connecting ads to tracking to CRM to automation to reporting. Every part measured, every rupee accounted for.</p>'
   + '</div>'
 
   // SKILLS
@@ -40,7 +40,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<td style="padding:0;font-size:10.5px;"><b>Haemoglobbinn</b> <span style="color:#777;font-size:9px;font-style:italic;">(Branding &amp; Integrated Marketing Co.)</span></td>'
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Pune</td></tr></table>'
   + '<table style="width:100%;border-collapse:collapse;margin-bottom:4px;"><tr>'
-  + '<td style="padding:0;font-weight:600;font-size:9.5px;">Performance Marketing Manager</td>'
+  + '<td style="padding:0;font-weight:600;font-size:9.5px;">Media Buying Manager</td>'
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Sept 2025 to Jan 2026</td></tr></table>'
   + '<ul style="margin:0;padding-left:14px;color:#333;font-size:9px;line-height:1.5;">'
   + '<li style="margin-bottom:2px;">Ran full-funnel Meta + Google Ads across real estate, preschools, daycare, D2C &amp; finance clients</li>'
