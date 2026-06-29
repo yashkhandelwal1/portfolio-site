@@ -8,7 +8,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<h1 style="font-size:26px;font-weight:700;margin:0 0 4px 0;">Yash Khandelwal</h1>'
   + '<p style="font-size:10.5px;font-weight:500;color:#555;margin:0 0 7px 0;text-transform:uppercase;letter-spacing:3px;">Media Buyer &amp; CRM Strategist</p>'
   + '<p style="font-size:9px;color:#555;margin:0;">Pune, India &nbsp; | &nbsp; yashkhandelwal1997@gmail.com &nbsp; | &nbsp; +91 77218 32029</p>'
-  + '<p style="font-size:9px;margin:2px 0 0 0;"><a href="https://www.linkedin.com/in/yash-khandelwal-067b54312/" style="color:#b45309;">linkedin.com/in/yash-khandelwal-067b54312</a> &nbsp; | &nbsp; <a href="https://portfolio-site-ten-pied.vercel.app/" style="color:#b45309;">portfolio-site-ten-pied.vercel.app</a></p>'
+  + '<p style="font-size:9px;margin:2px 0 0 0;"><a href="https://www.linkedin.com/in/yash-khandelwal-067b54312/" style="color:#b45309;">linkedin.com/in/yash-khandelwal-067b54312</a> &nbsp; | &nbsp; <a href="https://khandelwalyash.com/" style="color:#b45309;">khandelwalyash.com</a></p>'
   + '</div>'
 
   + '<hr style="border:none;border-top:2px solid #1a1a1a;margin:12px 0 10px 0;">'
