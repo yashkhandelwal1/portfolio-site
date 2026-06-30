@@ -679,10 +679,9 @@ img {
 }
 
 .about__img {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: auto;
   border-radius: 16px;
-  object-fit: cover;
   border: 2px solid var(--bg-tertiary);
 }
 
@@ -765,8 +764,8 @@ img {
   }
 
   .about__img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: auto;
   }
 
   .clients-grid {
