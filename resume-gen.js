@@ -34,10 +34,10 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 7px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Experience</h2>'
 
-  // Haemoglobbinn
+  // Agency role
   + '<div style="margin-bottom:10px;">'
   + '<table style="width:100%;border-collapse:collapse;"><tr>'
-  + '<td style="padding:0;font-size:10.5px;"><b>Haemoglobbinn</b> <span style="color:#777;font-size:9px;font-style:italic;">(Branding &amp; Integrated Marketing Co.)</span></td>'
+  + '<td style="padding:0;font-size:10.5px;"><b>Marketing &amp; Branding Agency</b></td>'
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Pune</td></tr></table>'
   + '<table style="width:100%;border-collapse:collapse;margin-bottom:4px;"><tr>'
   + '<td style="padding:0;font-weight:600;font-size:9.5px;">Media Buying Manager</td>'
@@ -83,12 +83,6 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   // PROJECTS
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 7px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Key Projects &amp; Case Studies</h2>'
-
-  + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Sai Sparsh Properties</b> <span style="color:#777;font-size:8.5px;\">| Real Estate, Pune</span>'
-  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">183+ verified leads, ₹129 CPL, 23% qualification, ₹2–3 Cr+ pipeline. Full tracking (Pixel + CAPI + GA4 + UTMs + gclid), Zoho → Zapier → Sheets pipeline, &lt;60 sec speed-to-lead.</p></div>'
-
-  + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Makoons Preschool</b> <span style="color:#777;font-size:8.5px;\">| Education, Pune (3 branches)</span>'
-  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Meta campaigns at ₹146–257 CPL. Google AI Overview ranking. Top 1–5 Maps rank across 3 locations. Full admissions funnel.</p></div>'
 
   + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Karseva</b> <span style="color:#777;font-size:8.5px;\">| Tax &amp; Accounting, Pune</span>'
   + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Google Ads: ₹5,000 → 4 leads → 2 qualified. Reduced CPC ₹59 to ₹33. Rebuilt messaging, full attribution stack.</p></div>'
