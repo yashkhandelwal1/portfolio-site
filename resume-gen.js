@@ -48,7 +48,8 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<li style="margin-bottom:2px;">Built full tracking: Pixel, Google Ads Tags, CAPI, GA4, UTMs, gclid for attribution consistency across platforms</li>'
   + '<li style="margin-bottom:2px;">Created Zoho CRM → Zapier → Sheets real-time reporting (100% visibility, zero leakage)</li>'
   + '<li style="margin-bottom:2px;">Optimised GMB listings, improved Map Pack rank, direction requests &amp; walk-in behaviour</li>'
-  + '<li>Built LinkedIn content engine for agency founder with consistent multi-thousand organic impressions</li>'
+  + '<li style="margin-bottom:2px;">Built LinkedIn content engine for founders</li>'
+  + '<li>Delivered <b>44% CPC reduction for a finance-sector client</b></li>'
   + '</ul></div>'
 
   // Angelicez
@@ -84,13 +85,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 7px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Key Projects &amp; Case Studies</h2>'
 
-  + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Karseva</b> <span style="color:#777;font-size:8.5px;\">| Tax &amp; Accounting, Pune</span>'
-  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Google Ads: ₹5,000 → 4 leads → 2 qualified. Reduced CPC ₹59 to ₹33. Rebuilt messaging, full attribution stack.</p></div>'
-
-  + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Kagaru Jewellery</b> <span style="color:#777;font-size:8.5px;\">| D2C Strategy, Pune</span>'
-  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">360° D2C blueprint: website CRO, tracking, ad funnels, WhatsApp flows, CRM automation, influencer &amp; UGC systems.</p></div>'
-
-  + '<div style="margin-bottom:0;"><b style="font-size:9.5px;">Eximaart</b> <span style="color:#777;font-size:8.5px;\">| Export, Pune</span>'
+  + '<div style="margin-bottom:0;"><b style="font-size:9.5px;">Export Business</b> <span style="color:#777;font-size:8.5px;\">| Export, Pune</span>'
   + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Export-ready website &amp; product structure. International buyer storytelling and B2B credibility pages.</p></div>'
   + '</div>'
 
