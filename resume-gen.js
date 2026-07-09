@@ -34,13 +34,13 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 7px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Experience</h2>'
 
-  // Agency role
+  // Haemoglobbinn
   + '<div style="margin-bottom:10px;">'
   + '<table style="width:100%;border-collapse:collapse;"><tr>'
-  + '<td style="padding:0;font-size:10.5px;"><b>Marketing &amp; Branding Agency</b></td>'
+  + '<td style="padding:0;font-size:10.5px;"><b>Haemoglobbinn</b> <span style="color:#777;font-size:9px;font-style:italic;">(Branding &amp; Integrated Marketing Co.)</span></td>'
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Pune</td></tr></table>'
   + '<table style="width:100%;border-collapse:collapse;margin-bottom:4px;"><tr>'
-  + '<td style="padding:0;font-weight:600;font-size:9.5px;">Media Buying Manager</td>'
+  + '<td style="padding:0;font-weight:600;font-size:9.5px;">Performance Marketing Manager</td>'
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Sept 2025 to Jan 2026</td></tr></table>'
   + '<ul style="margin:0;padding-left:14px;color:#333;font-size:9px;line-height:1.5;">'
   + '<li style="margin-bottom:2px;">Ran full-funnel Meta + Google Ads across real estate, preschools, daycare, D2C &amp; finance clients</li>'
