@@ -44,7 +44,7 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<td style="padding:0;text-align:right;color:#777;font-size:8.5px;white-space:nowrap;">Sept 2025 to Jan 2026</td></tr></table>'
   + '<ul style="margin:0;padding-left:14px;color:#333;font-size:9px;line-height:1.5;">'
   + '<li style="margin-bottom:2px;">Ran full-funnel Meta + Google Ads across real estate, preschools, daycare, D2C &amp; finance clients</li>'
-  + '<li style="margin-bottom:2px;">Engineered real estate system: <b>183+ leads, 144 CRM leads, 23% qualified (vs 10–15%), ₹142 CPL, ₹2–3 Cr+ pipeline</b> on ₹26K spend</li>'
+  + '<li style="margin-bottom:2px;">Engineered a real estate lead system: <b>sub-₹150 CPL, qualification rate roughly double the industry norm, generating a multi-crore sales pipeline</b> on a modest ad budget</li>'
   + '<li style="margin-bottom:2px;">Built full tracking: Pixel, Google Ads Tags, CAPI, GA4, UTMs, gclid for attribution consistency across platforms</li>'
   + '<li style="margin-bottom:2px;">Created Zoho CRM → Zapier → Sheets real-time reporting (100% visibility, zero leakage)</li>'
   + '<li style="margin-bottom:2px;">Optimised GMB listings, improved Map Pack rank, direction requests &amp; walk-in behaviour</li>'
