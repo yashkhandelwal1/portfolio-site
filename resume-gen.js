@@ -116,14 +116,34 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   container.innerHTML = html;
   document.body.appendChild(container);
 
-  html2pdf().set({
+  var opt = {
     margin: 0,
     filename: 'Yash_Khandelwal_Resume.pdf',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, useCORS: true, scrollY: 0 },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     pagebreak: { mode: ['css', 'legacy'] }
-  }).from(container.firstElementChild).save().then(function() {
-    document.body.removeChild(container);
-  });
+  };
+
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    // Mobile browsers (especially iOS Safari) block the blob-download link
+    // html2pdf's .save() relies on once rendering finishes asynchronously.
+    // Opening the tab now, inside the tap gesture, then pointing it at the
+    // PDF once it's ready keeps it from being blocked as a popup.
+    var pdfWindow = window.open('', '_blank');
+    html2pdf().set(opt).from(container.firstElementChild).outputPdf('bloburl').then(function(pdfUrl) {
+      document.body.removeChild(container);
+      if (pdfWindow) {
+        pdfWindow.location.href = pdfUrl;
+      } else {
+        window.location.href = pdfUrl;
+      }
+    });
+  } else {
+    html2pdf().set(opt).from(container.firstElementChild).save().then(function() {
+      document.body.removeChild(container);
+    });
+  }
 });
