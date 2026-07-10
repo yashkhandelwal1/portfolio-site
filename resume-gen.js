@@ -85,8 +85,11 @@ document.getElementById('resume-download-link').addEventListener('click', functi
   + '<div style="margin-bottom:10px;">'
   + '<h2 style="font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#b45309;margin:0 0 7px 0;border-bottom:1px solid #ddd;padding-bottom:3px;">Key Projects &amp; Case Studies</h2>'
 
-  + '<div style="margin-bottom:0;"><b style="font-size:9.5px;">Export Business</b> <span style="color:#777;font-size:8.5px;\">| Export, Pune</span>'
-  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Export-ready website &amp; product structure. International buyer storytelling and B2B credibility pages.</p></div>'
+  + '<div style="margin-bottom:7px;"><b style="font-size:9.5px;">Content Intelligence Engine</b> <span style="color:#777;font-size:8.5px;\">| AI Tool, Built &amp; Live</span>'
+  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">Tool that studies competitors&rsquo; published content and generates a 1/3/6-month content roadmap, every idea traceable to a real article. Running on a live client, not a demo.</p></div>'
+
+  + '<div style="margin-bottom:0;"><b style="font-size:9.5px;">Automated Performance Reports</b> <span style="color:#777;font-size:8.5px;\">| AI Tool, Built &amp; Live</span>'
+  + '<p style="margin:2px 0 0 0;color:#333;font-size:9px;line-height:1.5;">GA4 + Search Console tool that auto-emails weekly, monthly &amp; quarterly reports with a 0&ndash;100 performance score and action items. Zero manual work.</p></div>'
   + '</div>'
 
   // EDUCATION
