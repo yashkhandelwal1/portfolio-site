@@ -125,25 +125,19 @@ document.getElementById('resume-download-link').addEventListener('click', functi
     pagebreak: { mode: ['css', 'legacy'] }
   };
 
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  // Open the tab now, inside the tap gesture, so the browser doesn't treat
+  // the later navigation (after async PDF rendering) as a blocked popup.
+  // Use a blob URL, not a data URI: Chrome and other browsers block
+  // top-level navigation to data: URIs outright, which just leaves the
+  // tab blank.
+  var pdfWindow = window.open('', '_blank');
 
-  if (isMobile) {
-    // Mobile browsers (especially iOS Safari) block the blob-download link
-    // html2pdf's .save() relies on once rendering finishes asynchronously.
-    // Opening the tab now, inside the tap gesture, then pointing it at the
-    // PDF once it's ready keeps it from being blocked as a popup.
-    var pdfWindow = window.open('', '_blank');
-    html2pdf().set(opt).from(container.firstElementChild).outputPdf('bloburl').then(function(pdfUrl) {
-      document.body.removeChild(container);
-      if (pdfWindow) {
-        pdfWindow.location.href = pdfUrl;
-      } else {
-        window.location.href = pdfUrl;
-      }
-    });
-  } else {
-    html2pdf().set(opt).from(container.firstElementChild).save().then(function() {
-      document.body.removeChild(container);
-    });
-  }
+  html2pdf().set(opt).from(container.firstElementChild).outputPdf('bloburl').then(function(pdfUrl) {
+    document.body.removeChild(container);
+    if (pdfWindow) {
+      pdfWindow.location.href = pdfUrl;
+    } else {
+      window.location.href = pdfUrl;
+    }
+  });
 });
