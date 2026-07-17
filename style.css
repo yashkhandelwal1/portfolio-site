@@ -638,6 +638,45 @@ img {
   font-weight: 600;
 }
 
+.contact-item__value--btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 10px 18px;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--btn-radius);
+  font-size: 1rem !important;
+}
+
+.contact-item__value--btn:hover {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.contact-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.contact-main .section__subtitle {
+  margin-bottom: 0;
+}
+
+.contact-understand-card {
+  background-color: rgba(245, 158, 11, 0.06);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  border-radius: var(--card-radius);
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+.contact-understand-card .contact-details__list {
+  margin-bottom: 0;
+}
+
 .contact__note {
   margin-top: 32px;
   font-size: var(--fs-small);
