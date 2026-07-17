@@ -161,4 +161,50 @@
     });
   });
 
+  // --- CONTACT FORM SUBMISSION ---
+  var contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    var formStatus = document.getElementById('form-status');
+    var submitBtn = contactForm.querySelector('.form-submit');
+
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      // Honeypot: if this hidden field got filled in, silently drop it
+      if (contactForm.botcheck.value) {
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      formStatus.textContent = '';
+      formStatus.className = 'form-status';
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(contactForm)))
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data.success) {
+            formStatus.textContent = "Thanks! I've got your message and will get back to you soon.";
+            formStatus.className = 'form-status form-status--success';
+            contactForm.reset();
+          } else {
+            formStatus.textContent = 'Something went wrong. Please email me directly instead.';
+            formStatus.className = 'form-status form-status--error';
+          }
+        })
+        .catch(function () {
+          formStatus.textContent = 'Something went wrong. Please email me directly instead.';
+          formStatus.className = 'form-status form-status--error';
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send message';
+        });
+    });
+  }
+
 })();

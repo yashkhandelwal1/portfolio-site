@@ -507,12 +507,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
           <div class="contact-details">
-            <h3 class="contact-details__title">What I'd want to understand</h3>
-            <ul class="contact-details__list">
-              <li>The problem you're trying to solve.</li>
-              <li>What tracking and tools you already have.</li>
-              <li>Where the leaks are and what to fix first.</li>
-            </ul>
+            <h3 class="contact-details__title">Send me a message</h3>
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Name</label>
+                <input type="text" id="form-name" name="name" class="form-input" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email address</label>
+                <input type="email" id="form-email" name="email" class="form-input" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="form-phone" class="form-label">Phone number</label>
+                <input type="tel" id="form-phone" name="phone" class="form-input" required autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="form-message" class="form-label">What are you looking for help with?</label>
+                <textarea id="form-message" name="message" class="form-input form-textarea" rows="4"></textarea>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-day" class="form-label">Preferred day</label>
+                  <input type="date" id="form-day" name="preferred_day" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="form-slot" class="form-label">Preferred time (30 min call)</label>
+                  <select id="form-slot" name="preferred_time_slot" class="form-input">
+                    <option value="">Select a time</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="10:30 AM">10:30 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="11:30 AM">11:30 AM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                    <option value="12:30 PM">12:30 PM</option>
+                    <option value="1:00 PM">1:00 PM</option>
+                    <option value="1:30 PM">1:30 PM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="2:30 PM">2:30 PM</option>
+                    <option value="3:00 PM">3:00 PM</option>
+                    <option value="3:30 PM">3:30 PM</option>
+                    <option value="4:00 PM">4:00 PM</option>
+                    <option value="4:30 PM">4:30 PM</option>
+                    <option value="5:00 PM">5:00 PM</option>
+                    <option value="5:30 PM">5:30 PM</option>
+                    <option value="6:00 PM">6:00 PM</option>
+                    <option value="6:30 PM">6:30 PM</option>
+                    <option value="7:00 PM">7:00 PM</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Honeypot field to catch bots, kept hidden from real visitors -->
+              <input type="text" name="botcheck" class="form-honeypot" tabindex="-1" autocomplete="off">
+              <input type="hidden" name="access_key" value="3b1b7843-2cc5-4742-88c2-63b9d4644aee">
+              <input type="hidden" name="subject" value="New message from khandelwalyash.com">
+              <input type="hidden" name="from_name" value="Portfolio Contact Form">
+              <button type="submit" class="btn btn--filled form-submit">Send message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
             <p class="contact__note">I typically respond within a few hours. No decks, no fluff, just a straight conversation.</p>
           </div>
         </div>
