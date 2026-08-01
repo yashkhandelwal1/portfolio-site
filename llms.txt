@@ -19,6 +19,9 @@ Yash builds tracking systems, runs performance ad campaigns, and sets up reporti
 - [Teaching Guide](https://khandelwalyash.com/teaching-guide.html): short plain-language lessons on tracking, marketing, and customer experience.
 - [Guide: The Real Reason Your Real Estate Leads Don't Convert](https://khandelwalyash.com/guide-01-real-estate-leads.html)
 - [Guide: The Customer Who Buys — Then Feels Forgotten](https://khandelwalyash.com/guide-02-customer-forgotten.html)
+- [Guide: Why Your Ads Say You're Profitable and Your Bank Account Disagrees](https://khandelwalyash.com/guide-03-attribution-gap.html) — on ad platform attribution gaps and fixing them with GA4 and server-side tracking (CAPI).
+- [Guide: The Lead That Never Got a Reply](https://khandelwalyash.com/guide-04-lead-response-time.html) — on lead response speed and CRM/WhatsApp automation.
+- [Guide: Ranking #1 on Google, Invisible on ChatGPT](https://khandelwalyash.com/guide-05-aeo-geo.html) — on AEO/GEO and getting cited by AI answer engines, not just ranking in search.
 
 ## Contact
 
