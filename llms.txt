@@ -1,0 +1,28 @@
+# Yash Khandelwal
+
+> Tracking-first marketing consultant based in Pune, India, working with D2C ecommerce and B2B service companies across India and internationally (including MENA and Asia Pacific). Sets up tracking and measurement infrastructure before running ad campaigns, so every rupee of marketing spend can be attributed to a result.
+
+Yash builds tracking systems, runs performance ad campaigns, and sets up reporting and CRM automation as one connected system, rather than as separate disconnected tools. His background is engineering, which shapes how he approaches marketing: as a measurable system, not a set of guesses.
+
+## Services
+
+- **Ad campaigns you can actually track** — Meta Ads and Google Ads (Search, Shopping, Performance Max), built on top of proper tracking so every campaign can be attributed to real customers, not estimated.
+- **Tracking & reporting setup** — GA4, Google Tag Manager, BigQuery, Looker Studio, Meta Pixel, and server-side tracking (Conversions API/CAPI), built before any ad campaign starts.
+- **Search visibility & content** — Local SEO (Google Business Profile, Google Maps), national and international SEO, and AEO/GEO (optimizing for AI answer engines like ChatGPT and Google AI Overviews, not just traditional search).
+- **Website strategy & content** — website copywriting and page structure aimed at conversion and search visibility.
+- **Founder positioning** — LinkedIn ghostwriting for founders, in their own voice.
+- **CRM, WhatsApp & AI automation** — Zoho CRM, Zapier, WhatsApp (WATI) automated lead follow-up, and AI-assisted reporting.
+
+## Key pages
+
+- [Homepage](https://khandelwalyash.com/): services, featured work / case studies, about, FAQ, and contact.
+- [Teaching Guide](https://khandelwalyash.com/teaching-guide.html): short plain-language lessons on tracking, marketing, and customer experience.
+- [Guide: The Real Reason Your Real Estate Leads Don't Convert](https://khandelwalyash.com/guide-01-real-estate-leads.html)
+- [Guide: The Customer Who Buys — Then Feels Forgotten](https://khandelwalyash.com/guide-02-customer-forgotten.html)
+
+## Contact
+
+- Website: https://khandelwalyash.com
+- Email: yashkhandelwal1997@gmail.com
+- LinkedIn: https://www.linkedin.com/in/yash-khandelwal-067b54312/
+- Engagement starts with a 30-minute call, no pitch deck, no pressure.
