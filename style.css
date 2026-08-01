@@ -10,7 +10,7 @@
   --bg-tertiary: #27272a;
   --text-primary: #fafafa;
   --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
+  --text-muted: #8d8d96;
   --accent: #f59e0b;
   --accent-hover: #d97706;
 
@@ -1272,7 +1272,7 @@ input[type="date"].form-input {
   --bg-tertiary: #e5e5e5;
   --text-primary: #171717;
   --text-secondary: #525252;
-  --text-muted: #737373;
+  --text-muted: #656565;
   --accent: #d97706;
   --accent-hover: #b45309;
 }
@@ -1294,11 +1294,21 @@ input[type="date"].form-input {
 }
 
 [data-theme="light"] .nav__cta {
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 [data-theme="light"] .btn--filled {
-  color: #ffffff;
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .form-status--success,
+[data-theme="light"] .fit-card--yes .fit-card__title {
+  color: #15803d;
+}
+
+[data-theme="light"] .form-status--error,
+[data-theme="light"] .fit-card--no .fit-card__title {
+  color: #dc2626;
 }
 
 [data-theme="light"] .metric__value {
