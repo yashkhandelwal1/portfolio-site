@@ -464,6 +464,14 @@ img {
   font-weight: 500;
 }
 
+.work-card__note {
+  display: block;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
 .work-card__desc {
   font-size: 1rem;
   color: var(--text-secondary);
