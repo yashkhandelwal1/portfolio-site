@@ -1537,40 +1537,6 @@ input[type="date"].form-input {
   }
 }
 
-/* --- COST OF INACTION BANNER --- */
-.cta-section {
-  padding: var(--section-pad) 0;
-}
-
-.cta-banner {
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.06), rgba(245, 158, 11, 0.02));
-  border: 1px solid rgba(245, 158, 11, 0.15);
-  border-radius: var(--card-radius);
-  padding: 56px 48px;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.cta-banner__title {
-  font-size: var(--fs-h3);
-  font-weight: 700;
-  letter-spacing: var(--ls-heading);
-  color: var(--text-primary);
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.cta-banner__text {
-  font-size: 1rem;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  margin-bottom: 32px;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* --- FIT SECTION --- */
 .fit-grid {
   display: grid;
@@ -1650,10 +1616,6 @@ input[type="date"].form-input {
 @media (max-width: 768px) {
   .fit-grid {
     grid-template-columns: 1fr;
-  }
-
-  .cta-banner {
-    padding: 36px 24px;
   }
 }
 
