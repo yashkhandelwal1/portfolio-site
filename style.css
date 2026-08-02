@@ -444,6 +444,33 @@ img {
   transform: translateY(-2px);
 }
 
+.work-preview-card__thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--card-radius);
+  border: 1px solid var(--bg-tertiary);
+  margin-bottom: 16px;
+}
+
+.work-preview-card__thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--card-radius);
+  border: 1px dashed var(--bg-tertiary);
+  background-color: var(--bg-tertiary);
+  margin-bottom: 16px;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  padding: 12px;
+}
+
 .work-preview-card__title {
   font-size: var(--fs-h3);
   font-weight: 600;
