@@ -427,6 +427,12 @@ img {
   gap: 24px;
 }
 
+.work-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
 .work-card {
   background-color: var(--bg-primary);
   border: 1px solid var(--bg-tertiary);
