@@ -908,6 +908,9 @@ img {
 .about__photo {
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: calc(var(--nav-height) + 24px);
+  align-self: start;
 }
 
 .about__img {
@@ -993,6 +996,11 @@ img {
   .about__stack {
     justify-self: start;
     width: 100%;
+  }
+
+  .about__photo {
+    position: static;
+    top: auto;
   }
 
   .about__img {
