@@ -124,16 +124,9 @@
   });
 
   // --- THEME TOGGLE ---
+  // Initial theme is set synchronously in a head script to avoid a flash; this just wires the click.
   var themeToggle = document.getElementById('theme-toggle');
   var htmlEl = document.documentElement;
-
-  // Check saved preference or system preference
-  var savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    htmlEl.setAttribute('data-theme', savedTheme);
-  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-    htmlEl.setAttribute('data-theme', 'light');
-  }
 
   themeToggle.addEventListener('click', function () {
     var currentTheme = htmlEl.getAttribute('data-theme');
