@@ -16,7 +16,7 @@ Yash builds tracking systems, runs performance ad campaigns, and sets up reporti
 ## Key pages
 
 - [Homepage](https://khandelwalyash.com/): services, a short work preview, about, and contact.
-- [Work](https://khandelwalyash.com/work.html): full case studies and the systems behind them.
+- [Work](https://khandelwalyash.com/work.html): full case studies and the systems behind them, including the Content Intelligence Engine (a competitor-content-to-roadmap tool), Surface Demand Radar (a market-intelligence tool for surface and material showrooms covering search, Maps, and AI-answer-engine visibility), and a Hyderabad premium surfaces studio's growth system (WhatsApp, founder LinkedIn, Google Business Profile, and lead intake).
 - [FAQ](https://khandelwalyash.com/faq.html): answers to what people usually ask before booking a call.
 - [Teaching Guide](https://khandelwalyash.com/teaching-guide.html): short plain-language lessons on tracking, marketing, and customer experience.
 - [Guide: The Real Reason Your Real Estate Leads Don't Convert](https://khandelwalyash.com/guide-01-real-estate-leads.html)
