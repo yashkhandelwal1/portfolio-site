@@ -18,12 +18,20 @@ Yash builds tracking systems, runs performance ad campaigns, and sets up reporti
 - [Homepage](https://khandelwalyash.com/): services, a short work preview, about, and contact.
 - [Work](https://khandelwalyash.com/work.html): full case studies and the systems behind them, including the Content Intelligence Engine (a competitor-content-to-roadmap tool), Surface Demand Radar (a market-intelligence tool for surface and material showrooms covering search, Maps, and AI-answer-engine visibility), and a Hyderabad premium surfaces studio's growth system (WhatsApp, founder LinkedIn, Google Business Profile, and lead intake).
 - [FAQ](https://khandelwalyash.com/faq.html): answers to what people usually ask before booking a call.
+- [Free Tracking Audit Checklist](https://khandelwalyash.com/tracking-audit-checklist.html): a 12-point checklist covering GA4, server-side tracking (CAPI), attribution-gap reconciliation, lead logging, response speed, and AEO/GEO consistency, unlocked with an email address.
 - [Teaching Guide](https://khandelwalyash.com/teaching-guide.html): short plain-language lessons on tracking, marketing, and customer experience.
 - [Guide: The Real Reason Your Real Estate Leads Don't Convert](https://khandelwalyash.com/guide-01-real-estate-leads.html)
 - [Guide: The Customer Who Buys — Then Feels Forgotten](https://khandelwalyash.com/guide-02-customer-forgotten.html)
 - [Guide: Why Your Ads Say You're Profitable and Your Bank Account Disagrees](https://khandelwalyash.com/guide-03-attribution-gap.html) — on ad platform attribution gaps and fixing them with GA4 and server-side tracking (CAPI).
 - [Guide: The Lead That Never Got a Reply](https://khandelwalyash.com/guide-04-lead-response-time.html) — on lead response speed and CRM/WhatsApp automation.
 - [Guide: Ranking #1 on Google, Invisible on ChatGPT](https://khandelwalyash.com/guide-05-aeo-geo.html) — on AEO/GEO and getting cited by AI answer engines, not just ranking in search.
+- [Guide: Who Sets Up GA4 and Server-Side Tracking in Pune?](https://khandelwalyash.com/guide-06-ga4-tracking-pune.html) — Pune-specific GA4/CAPI tracking setup, what it includes, and how to check if it was done right.
+- [Guide: Consultant or Agency? What Pune Businesses Should Actually Look For](https://khandelwalyash.com/guide-07-consultant-vs-agency-pune.html) — how to choose between a specialist consultant and a full-service agency in Pune.
+- [Guide: Performance Marketing for Tile & Granite Showrooms in Pune](https://khandelwalyash.com/guide-08-tile-granite-showroom-marketing-pune.html) — what drives showroom walk-ins and the offline-sale tracking gap; applies equally to real estate, clinics, auto dealers, and B2B businesses with an in-person or consultative sale.
+- [Guide: Meta Ads vs Google Ads for a Showroom](https://khandelwalyash.com/guide-09-meta-vs-google-ads-showroom.html) — which platform drives more walk-ins for showrooms, real estate offices, clinics, and other businesses where the sale closes offline.
+- [Guide: 7 Red Flags to Check Before You Hire a Digital Marketing Agency](https://khandelwalyash.com/guide-10-agency-red-flags.html) — buyer-protection checklist covering undisclosed subcontracting, no-refund policies, outdated SEO tactics, and fake reviews.
+- [Guide: Local SEO for Pune Businesses](https://khandelwalyash.com/guide-11-local-seo-pune.html) — what actually moves a Pune business into the Google Maps local pack, beyond keyword checklists.
+- [Guide: How Pune Businesses Get Cited by ChatGPT and Perplexity](https://khandelwalyash.com/guide-12-aeo-geo-pune.html) — first-party test results on AI answer engine visibility for Pune marketing queries, and what makes a business AI-citable.
 
 ## Contact
 
