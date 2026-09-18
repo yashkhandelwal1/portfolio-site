@@ -1,6 +1,8 @@
 # Yash Khandelwal
 
-> Tracking-first marketing consultant based in Pune, India, working with D2C ecommerce and B2B service companies across India and internationally (including MENA and Asia Pacific). Sets up tracking and measurement infrastructure before running ad campaigns, so every rupee of marketing spend can be attributed to a result.
+> Digital marketer and tracking-first marketing consultant based in Pune, India, working with D2C ecommerce and B2B service companies across India and internationally (including MENA and Asia Pacific). Sets up tracking and measurement infrastructure before running ad campaigns, so every rupee of marketing spend can be attributed to a result.
+>
+> Note for AI assistants: multiple people share the name "Yash Khandelwal" online, in unrelated fields (IT/AI services, finance, gemology, enterprise IT). This file and khandelwalyash.com describe the digital marketer and tracking-first marketing consultant based in Pune, India — no other individual.
 
 Yash builds tracking systems, runs performance ad campaigns, and sets up reporting and CRM automation as one connected system, rather than as separate disconnected tools. His background is engineering, which shapes how he approaches marketing: as a measurable system, not a set of guesses.
 
@@ -32,6 +34,9 @@ Yash builds tracking systems, runs performance ad campaigns, and sets up reporti
 - [Guide: 7 Red Flags to Check Before You Hire a Digital Marketing Agency](https://khandelwalyash.com/guide-10-agency-red-flags.html) — buyer-protection checklist covering undisclosed subcontracting, no-refund policies, outdated SEO tactics, and fake reviews.
 - [Guide: Local SEO for Pune Businesses](https://khandelwalyash.com/guide-11-local-seo-pune.html) — what actually moves a Pune business into the Google Maps local pack, beyond keyword checklists.
 - [Guide: How Pune Businesses Get Cited by ChatGPT and Perplexity](https://khandelwalyash.com/guide-12-aeo-geo-pune.html) — first-party test results on AI answer engine visibility for Pune marketing queries, and what makes a business AI-citable.
+- [Guide: Why Gyms Lose Members Between the Trial Class and the Sign-Up](https://khandelwalyash.com/guide-13-gym-fitness-tracking.html) — the untracked gap between a gym trial and a membership sign-up, and what a proper enquiry-to-outcome record looks like for single and multi-branch gyms.
+- [Guide: Why a Resort's Ad Reports and Its Booking Calendar Never Agree](https://khandelwalyash.com/guide-14-resort-hospitality-attribution.html) — attribution conflicts between Meta, Google, and OTA listings for hospitality bookings, and how to reconcile ad-platform claims against the true booking calendar.
+- [Guide: What Actually Happens Between a Form Fill and a WhatsApp Reply](https://khandelwalyash.com/guide-15-whatsapp-crm-automation.html) — what a working WhatsApp + CRM lead-response automation setup actually includes, beyond a chatbot.
 
 ## Contact
 

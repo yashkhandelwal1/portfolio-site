@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66J2ZRHY19"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-66J2ZRHY19');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MKWSJ8SW');</script>
+  <!-- End Google Tag Manager -->
+  <title>Why a Resort's Ad Reports and Its Booking Calendar Never Agree | Yash Khandelwal</title>
+  <meta name="description" content="A resort can run ads that show strong ROAS while the front desk sees a different picture entirely. The gap is usually the booking engine, the OTA listing, and the ad platform each counting the same guest differently.">
+  <meta property="og:title" content="Why a Resort's Ad Reports and Its Booking Calendar Never Agree">
+  <meta property="og:description" content="A resort can run ads that show strong ROAS while the front desk sees a different picture entirely. The gap is usually the booking engine, the OTA listing, and the ad platform each counting the same guest differently.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://khandelwalyash.com/guide-14-resort-hospitality-attribution.html">
+  <meta property="og:image" content="https://khandelwalyash.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="canonical" href="https://khandelwalyash.com/guide-14-resort-hospitality-attribution.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why a Resort's Ad Reports and Its Booking Calendar Never Agree">
+  <meta name="twitter:description" content="A resort can run ads that show strong ROAS while the front desk sees a different picture entirely. The gap is usually the booking engine, the OTA listing, and the ad platform each counting the same guest differently.">
+  <meta name="twitter:image" content="https://khandelwalyash.com/assets/og-image.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why a Resort's Ad Reports and Its Booking Calendar Never Agree",
+  "description": "A resort can run ads that show strong ROAS while the front desk sees a different picture entirely. The gap is usually the booking engine, the OTA listing, and the ad platform each counting the same guest differently.",
+  "author": {
+    "@type": "Person",
+    "name": "Yash Khandelwal",
+    "url": "https://khandelwalyash.com"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Yash Khandelwal",
+    "url": "https://khandelwalyash.com"
+  },
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-09-18",
+  "mainEntityOfPage": "https://khandelwalyash.com/guide-14-resort-hospitality-attribution.html",
+  "image": "https://khandelwalyash.com/assets/og-image.png"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do hotel and resort ad platforms overstate bookings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Meta and Google both count a booking as theirs if their ad was anywhere in the guest's path, even a single click days before a direct call sealed it. An OTA listing can claim the same guest a third time if the guest checked prices there before booking direct. Three sources can each report the same booking honestly by their own rules and still add up to more revenue than the resort actually took."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can a resort track which channel actually drove a booking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The booking engine's confirmed-reservation event, not a page view or an 'add to cart' click, needs to fire back to GA4 and to each ad platform's conversion API, tagged with the UTM source that brought the guest in. Phone and walk-in bookings need to be logged with an asked source ('how did you hear about us') and reconciled against ad platform claims monthly, so double-counted or fabricated attribution gets caught before it skews next month's ad budget."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKWSJ8SW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <header class="nav-header scrolled" id="nav-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo">Yash Khandelwal</a>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="teaching-guide.html" class="nav__link">&larr; All guides</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="section" id="guide">
+      <div class="container">
+        <article class="guide-article fade-in">
+          <span class="guide-article__label">Teaching Guide &middot; 14</span>
+          <h1 class="guide-article__title">Why a Resort's Ad Reports and Its Booking Calendar Never Agree</h1>
+
+          <div class="guide-article__intro">
+            <p>Meta says the campaign drove a strong return. Google Ads says the same. The booking calendar at the front desk tells a smaller, less generous story. Nobody's lying here; three systems are each counting the same guest by their own rules, and the rules don't agree.</p>
+            <p>For a resort, this gap matters more than most businesses, because the sale rarely closes in one click. It closes across a browsed OTA listing, a direct-site visit, a phone call, and sometimes a walk-in enquiry, days or weeks apart.</p>
+          </div>
+
+          <div class="guide-article__body">
+            <h3>Three places a resort booking can be claimed, and only one is true</h3>
+            <p>A guest clicks a Meta ad, checks the price on an OTA a day later, then calls the resort directly and books over the phone. Meta claims the booking because its ad was in the path. The OTA's own reporting may still count the visit as an attributed lead. The resort's own books show the true number: one confirmed reservation, taken by phone, paid for once. Add up what the platforms report and it can look like the resort earned three times what it actually did.</p>
+
+            <h3>The OTA blind spot</h3>
+            <p>OTAs are useful for visibility, but they rarely hand back clean data on why a guest actually booked direct instead. A resort running ads to compete with its own OTA listings, without a way to see which channel a phone or walk-in booking actually came from, ends up guessing at the split between paid, direct, and OTA-influenced revenue, and budget decisions get made on that guess.</p>
+
+            <p class="guide-article__pullquote">A resort can be profitable and still look unprofitable on a Monday report, simply because nobody reconciled what three different systems each claimed credit for.</p>
+
+            <h3>What proper attribution looks like for a resort</h3>
+            <ul>
+              <li>The booking engine's confirmed-reservation event wired to GA4 and to each ad platform's conversion API, not just a page view or a rate-check click</li>
+              <li>Phone and walk-in bookings logged with an asked source, so offline revenue doesn't vanish from the picture entirely</li>
+              <li>Consistent UTM tagging across every channel, including the OTA listing where a direct link is possible</li>
+              <li>A monthly reconciliation between what each platform claims and what the booking calendar actually shows, so double-counted credit gets caught before it shapes next month's spend</li>
+            </ul>
+
+            <h3>Why this matters more once ad spend scales</h3>
+            <p>At small spend, a resort can absorb a fuzzy attribution picture and still come out fine. Once meaningful budget goes into Meta and Google, an unreconciled gap compounds: money keeps flowing toward whichever platform's dashboard looks best, whether or not it's the platform actually filling rooms.</p>
+          </div>
+
+          <div class="guide-article__footer-note">
+            <p>Want to see how tracking and reporting gets built for a hospitality business specifically? <a href="index.html#services" class="text-accent">See the tracking & reporting setup service</a>, or <a href="index.html#contact" class="contact-item__value contact-item__value--btn">let's talk &rarr;</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy">&copy; 2026 Yash Khandelwal</span>
+      <a href="index.html" class="footer__link">Back to khandelwalyash.com</a>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+      var themeToggle = document.getElementById('theme-toggle');
+      var htmlEl = document.documentElement;
+      themeToggle.addEventListener('click', function () {
+        var currentTheme = htmlEl.getAttribute('data-theme');
+        var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        htmlEl.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+      document.querySelectorAll('.fade-in').forEach(function (el) {
+        el.classList.add('visible');
+      });
+    })();
+  </script>
+</body>
+</html>
