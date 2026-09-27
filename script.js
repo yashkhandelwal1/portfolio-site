@@ -181,16 +181,16 @@
         .then(function (res) { return res.json(); })
         .then(function (data) {
           if (data.success) {
-            formStatus.textContent = "Thanks! I've got your message and will get back to you soon.";
+            formStatus.textContent = "Thanks! We've got your message and will get back to you soon.";
             formStatus.className = 'form-status form-status--success';
             contactForm.reset();
           } else {
-            formStatus.textContent = 'Something went wrong. Please email me directly instead.';
+            formStatus.textContent = 'Something went wrong. Please email us directly instead.';
             formStatus.className = 'form-status form-status--error';
           }
         })
         .catch(function () {
-          formStatus.textContent = 'Something went wrong. Please email me directly instead.';
+          formStatus.textContent = 'Something went wrong. Please email us directly instead.';
           formStatus.className = 'form-status form-status--error';
         })
         .finally(function () {

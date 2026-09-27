@@ -113,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h1 class="guide-article__title">The Tracking Audit Checklist</h1>
 
           <div class="guide-article__intro">
-            <p>Twelve checks, pulled from the same audits I run for clients before touching a single ad campaign.</p>
+            <p>Twelve checks, pulled from the same audits we run for clients before touching a single ad campaign.</p>
             <p>Most tracking problems aren't complicated. They're just invisible until someone looks. Enter your email and the full checklist unlocks below &mdash; no download, no wait.</p>
           </div>
 
@@ -280,14 +280,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 checklistContent.hidden = false;
                 checklistContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
               } else {
-                checklistStatus.textContent = 'Something went wrong. Please email me directly instead.';
+                checklistStatus.textContent = 'Something went wrong. Please email us directly instead.';
                 checklistStatus.className = 'form-status form-status--error';
                 checklistSubmitBtn.disabled = false;
                 checklistSubmitBtn.textContent = 'Get the checklist →';
               }
             })
             .catch(function () {
-              checklistStatus.textContent = 'Something went wrong. Please email me directly instead.';
+              checklistStatus.textContent = 'Something went wrong. Please email us directly instead.';
               checklistStatus.className = 'form-status form-status--error';
               checklistSubmitBtn.disabled = false;
               checklistSubmitBtn.textContent = 'Get the checklist →';
@@ -296,5 +296,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
     })();
   </script>
+  <script src="effects.js" defer></script>
 </body>
 </html>

@@ -13,12 +13,13 @@ Yash builds tracking systems, runs performance ad campaigns, and sets up reporti
 - **Search visibility & content** — Local SEO (Google Business Profile, Google Maps), national and international SEO, and AEO/GEO (optimizing for AI answer engines like ChatGPT and Google AI Overviews, not just traditional search).
 - **Website strategy & content** — website copywriting and page structure aimed at conversion and search visibility.
 - **Founder positioning** — LinkedIn ghostwriting for founders, in their own voice.
+- **Ad creatives and hospitality launches** — ad creatives and reels made in-house, and booking-platform (OTA) listings for resorts and homestays.
 - **CRM, WhatsApp & AI automation** — Zoho CRM, Zapier, WhatsApp (WATI) automated lead follow-up, and AI-assisted reporting.
 
 ## Key pages
 
 - [Homepage](https://khandelwalyash.com/): services, a short work preview, about, and contact.
-- [Work](https://khandelwalyash.com/work.html): full case studies and the systems behind them, including the Content Intelligence Engine (a competitor-content-to-roadmap tool), Surface Demand Radar (a market-intelligence tool for surface and material showrooms covering search, Maps, and AI-answer-engine visibility), and a Hyderabad premium surfaces studio's growth system (WhatsApp, founder LinkedIn, Google Business Profile, and lead intake).
+- [Work](https://khandelwalyash.com/work.html): full case studies and the systems behind them, including a boutique wildlife resort's season launch near a central Indian tiger reserve (competitor and demand research, a rebuilt website with structured data, booking-platform listings, tracking set up before ads, Google Business Profile posts, Meta and Google ads with in-house creatives and reels, and enquiry tracking from click to booking), the Content Intelligence Engine (a competitor-content-to-roadmap tool), Surface Demand Radar (a market-intelligence tool for surface and material showrooms covering search, Maps, and AI-answer-engine visibility), and a Hyderabad premium surfaces studio's growth system (WhatsApp, founder LinkedIn, Google Business Profile, and lead intake).
 - [FAQ](https://khandelwalyash.com/faq.html): answers to what people usually ask before booking a call.
 - [Free Tracking Audit Checklist](https://khandelwalyash.com/tracking-audit-checklist.html): a 12-point checklist covering GA4, server-side tracking (CAPI), attribution-gap reconciliation, lead logging, response speed, and AEO/GEO consistency, unlocked with an email address.
 - [Teaching Guide](https://khandelwalyash.com/teaching-guide.html): short plain-language lessons on tracking, marketing, and customer experience.

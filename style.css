@@ -1981,3 +1981,132 @@ img {
   font-weight: 600;
   color: var(--accent);
 }
+
+/* ============================================
+   VISUAL EFFECTS (effects.js)
+   ============================================ */
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-hover), var(--accent), #fcd34d);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  z-index: 1001;
+  pointer-events: none;
+}
+
+/* Hero word-by-word reveal */
+.hero__headline.words-ready .word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.45em);
+  filter: blur(6px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease), filter 0.6s var(--ease);
+}
+.hero__headline.words-in .word {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+/* Hero cursor glow */
+.hero { position: relative; overflow: hidden; }
+.hero > .container { position: relative; z-index: 1; }
+.hero-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background: radial-gradient(180px circle at var(--gx, 50%) var(--gy, 50%),
+    color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%);
+}
+.hero-glow.on { opacity: 1; }
+
+/* Card spotlight */
+.spotlight { position: relative; isolation: isolate; }
+.spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in srgb, var(--accent) 70%, transparent), transparent 55%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity var(--t-base) var(--ease);
+  pointer-events: none;
+  z-index: 2;
+}
+.spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in srgb, var(--accent) 7%, transparent), transparent 60%);
+  opacity: 0;
+  transition: opacity var(--t-base) var(--ease);
+  pointer-events: none;
+  z-index: -1;
+}
+.spotlight:hover::before,
+.spotlight:hover::after { opacity: 1; }
+
+/* Tilt cards need a smooth return */
+.work-preview-card,
+.service-card { will-change: transform; }
+
+/* Magnetic buttons */
+.btn.magnetic { transition: transform 0.25s var(--ease), background-color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease), color var(--t-fast) var(--ease); }
+
+/* Case study cover art */
+.work-card__cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1200 / 400;
+  object-fit: cover;
+  object-position: center 70%;
+  border-bottom: 1px solid var(--hairline);
+  transition: transform 0.8s var(--ease);
+}
+.work-card:hover .work-card__cover { transform: scale(1.025); }
+
+/* Staggered reveal */
+.stagger > * {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.stagger.stagger-in > * {
+  opacity: 1;
+  transform: none;
+}
+
+/* Four featured projects sit in a 2 x 2 grid */
+.work-preview-grid { grid-template-columns: repeat(2, 1fr); }
+
+@media (max-width: 768px) {
+  .work-preview-grid { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stagger > * { opacity: 1 !important; transform: none !important; }
+  .hero-glow, .spotlight::before, .spotlight::after { display: none; }
+  .work-card:hover .work-card__cover { transform: none; }
+}
+
+/* Cover art thumbnails on the homepage: show the whole illustration */
+.work-preview-card__thumb[src$=".svg"] { aspect-ratio: 1200 / 520; object-fit: contain; background: #141418; }
+
+/* Theme-specific cover art */
+[data-theme="light"] .theme-dark-only { display: none !important; }
+[data-theme="dark"] .theme-light-only { display: none !important; }

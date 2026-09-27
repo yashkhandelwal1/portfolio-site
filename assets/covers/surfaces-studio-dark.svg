@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Illustration: stone and marble slabs on display in a showroom">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f59e0b" stop-opacity=".16"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></linearGradient>
+    <style>
+      .sheen{animation:sweep 5s ease-in-out infinite}
+      .s1{animation-delay:.4s}.s2{animation-delay:.8s}.s3{animation-delay:1.2s}.s4{animation-delay:1.6s}
+      @keyframes sweep{0%,15%{transform:skewX(-18deg) translateX(0)}60%,100%{transform:skewX(-18deg) translateX(420px)}}
+      @media (prefers-reduced-motion:reduce){.sheen{animation:none;opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="520" fill="#111114"/>
+  <rect y="430" width="1200" height="90" fill="#1b1b20"/>
+  
+  <g>
+      <ellipse cx="225.0" cy="432" rx="85.0" ry="10" fill="rgba(0,0,0,.55)"/>
+      <rect x="150" y="100" width="150" height="320" rx="6" fill="#f3f1ec"/>
+      <clipPath id="c0"><rect x="150" y="100" width="150" height="320" rx="6"/></clipPath>
+      <g clip-path="url(#c0)"><g fill="none" stroke="#b9b4aa" opacity=".7"><path d="M140.0 140.0 C190.0 190.0 210.0 170.0 310.0 270.0" stroke-width="2.4"/><path d="M170.0 95.0 C180.0 180.0 240.0 220.0 270.0 420.0" stroke-width="1.2"/><path d="M145.0 290.0 C200.0 300.0 220.0 360.0 305.0 380.0" stroke-width="1.8"/><path d="M220.0 200.0 C230.0 240.0 260.0 250.0 305.0 240.0" stroke-width="1"/></g><rect class="sheen s0" x="30" y="100" width="60" height="320" fill="url(#sheen)" transform="skewX(-18)"/></g>
+      <rect x="150" y="100" width="150" height="320" rx="6" fill="none" stroke="rgba(255,255,255,.08)"/>
+    </g><g>
+      <ellipse cx="410.0" cy="432" rx="85.0" ry="10" fill="rgba(0,0,0,.55)"/>
+      <rect x="335" y="90" width="150" height="330" rx="6" fill="#1c1c1f"/>
+      <clipPath id="c1"><rect x="335" y="90" width="150" height="330" rx="6"/></clipPath>
+      <g clip-path="url(#c1)"><g fill="none" stroke="#6b6b73" opacity=".7"><path d="M325.0 130.0 C375.0 180.0 395.0 160.0 495.0 260.0" stroke-width="2.4"/><path d="M355.0 85.0 C365.0 170.0 425.0 210.0 455.0 420.0" stroke-width="1.2"/><path d="M330.0 280.0 C385.0 290.0 405.0 350.0 490.0 370.0" stroke-width="1.8"/><path d="M405.0 190.0 C415.0 230.0 445.0 240.0 490.0 230.0" stroke-width="1"/></g><rect class="sheen s1" x="215" y="90" width="60" height="330" fill="url(#sheen)" transform="skewX(-18)"/></g>
+      <rect x="335" y="90" width="150" height="330" rx="6" fill="none" stroke="rgba(255,255,255,.08)"/>
+    </g><g>
+      <ellipse cx="595.0" cy="432" rx="85.0" ry="10" fill="rgba(0,0,0,.55)"/>
+      <rect x="520" y="106" width="150" height="314" rx="6" fill="#e6d3b3"/>
+      <clipPath id="c2"><rect x="520" y="106" width="150" height="314" rx="6"/></clipPath>
+      <g clip-path="url(#c2)"><g fill="none" stroke="#b08d5b" opacity=".7"><path d="M510.0 146.0 C560.0 196.0 580.0 176.0 680.0 276.0" stroke-width="2.4"/><path d="M540.0 101.0 C550.0 186.0 610.0 226.0 640.0 420.0" stroke-width="1.2"/><path d="M515.0 296.0 C570.0 306.0 590.0 366.0 675.0 386.0" stroke-width="1.8"/><path d="M590.0 206.0 C600.0 246.0 630.0 256.0 675.0 246.0" stroke-width="1"/></g><rect class="sheen s2" x="400" y="106" width="60" height="314" fill="url(#sheen)" transform="skewX(-18)"/></g>
+      <rect x="520" y="106" width="150" height="314" rx="6" fill="none" stroke="rgba(255,255,255,.08)"/>
+    </g><g>
+      <ellipse cx="780.0" cy="432" rx="85.0" ry="10" fill="rgba(0,0,0,.55)"/>
+      <rect x="705" y="94" width="150" height="326" rx="6" fill="#2f4a3e"/>
+      <clipPath id="c3"><rect x="705" y="94" width="150" height="326" rx="6"/></clipPath>
+      <g clip-path="url(#c3)"><g fill="none" stroke="#9fc4b0" opacity=".7"><path d="M695.0 134.0 C745.0 184.0 765.0 164.0 865.0 264.0" stroke-width="2.4"/><path d="M725.0 89.0 C735.0 174.0 795.0 214.0 825.0 420.0" stroke-width="1.2"/><path d="M700.0 284.0 C755.0 294.0 775.0 354.0 860.0 374.0" stroke-width="1.8"/><path d="M775.0 194.0 C785.0 234.0 815.0 244.0 860.0 234.0" stroke-width="1"/></g><rect class="sheen s3" x="585" y="94" width="60" height="326" fill="url(#sheen)" transform="skewX(-18)"/></g>
+      <rect x="705" y="94" width="150" height="326" rx="6" fill="none" stroke="rgba(255,255,255,.08)"/>
+    </g><g>
+      <ellipse cx="965.0" cy="432" rx="85.0" ry="10" fill="rgba(0,0,0,.55)"/>
+      <rect x="890" y="102" width="150" height="318" rx="6" fill="#8f8f95"/>
+      <clipPath id="c4"><rect x="890" y="102" width="150" height="318" rx="6"/></clipPath>
+      <g clip-path="url(#c4)"><g fill="none" stroke="#d6d6da" opacity=".7"><path d="M880.0 142.0 C930.0 192.0 950.0 172.0 1050.0 272.0" stroke-width="2.4"/><path d="M910.0 97.0 C920.0 182.0 980.0 222.0 1010.0 420.0" stroke-width="1.2"/><path d="M885.0 292.0 C940.0 302.0 960.0 362.0 1045.0 382.0" stroke-width="1.8"/><path d="M960.0 202.0 C970.0 242.0 1000.0 252.0 1045.0 242.0" stroke-width="1"/></g><rect class="sheen s4" x="770" y="102" width="60" height="318" fill="url(#sheen)" transform="skewX(-18)"/></g>
+      <rect x="890" y="102" width="150" height="318" rx="6" fill="none" stroke="rgba(255,255,255,.08)"/>
+    </g>
+  <g transform="translate(1080 70)"><path d="M0 0 c-20 0-34 15-34 34 0 25 34 58 34 58 s34-33 34-58 C34 15 20 0 0 0z" fill="#f59e0b"/><circle cx="0" cy="34" r="12" fill="#111114"/></g>
+</svg>
