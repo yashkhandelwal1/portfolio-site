@@ -2110,3 +2110,7 @@ img {
 /* Theme-specific cover art */
 [data-theme="light"] .theme-dark-only { display: none !important; }
 [data-theme="dark"] .theme-light-only { display: none !important; }
+
+/* Three-part services layout */
+.services-grid--three { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 960px) { .services-grid--three { grid-template-columns: 1fr; } }

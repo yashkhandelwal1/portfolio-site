@@ -280,14 +280,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 checklistContent.hidden = false;
                 checklistContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
               } else {
-                checklistStatus.textContent = 'Something went wrong. Please email us directly instead.';
+                checklistStatus.textContent = 'Something went wrong. Please email me directly instead.';
                 checklistStatus.className = 'form-status form-status--error';
                 checklistSubmitBtn.disabled = false;
                 checklistSubmitBtn.textContent = 'Get the checklist →';
               }
             })
             .catch(function () {
-              checklistStatus.textContent = 'Something went wrong. Please email us directly instead.';
+              checklistStatus.textContent = 'Something went wrong. Please email me directly instead.';
               checklistStatus.className = 'form-status form-status--error';
               checklistSubmitBtn.disabled = false;
               checklistSubmitBtn.textContent = 'Get the checklist →';
