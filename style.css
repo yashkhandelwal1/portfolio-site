@@ -2114,3 +2114,37 @@ img {
 /* Three-part services layout */
 .services-grid--three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 960px) { .services-grid--three { grid-template-columns: 1fr; } }
+
+/* --- HERO PHOTO --- */
+.hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 56px;
+  align-items: center;
+}
+.hero__inner > * {
+  min-width: 0;
+}
+.hero__photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 900 / 1225;
+  object-fit: cover;
+  border-radius: 12px;
+}
+@media (max-width: 900px) {
+  .hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .hero__photo {
+    order: -1;
+    max-width: 220px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__photo {
+    max-width: 170px;
+  }
+}
