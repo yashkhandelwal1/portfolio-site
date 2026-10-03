@@ -20,6 +20,10 @@
   --accent-hover: #d97706;
   --accent-quiet: #b3915c;
 
+  --gold-1: #f1dca4;
+  --gold-2: #d4a95a;
+  --gold-3: #a8782e;
+
   --success: #22c55e;
   --error: #ef4444;
 
@@ -143,16 +147,30 @@ img {
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .nav__mark {
   flex-shrink: 0;
-  color: var(--accent);
+  width: 38px;
+  height: 38px;
+}
+
+.nav__wordmark {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 .nav__logo:hover {
-  color: var(--accent);
+  color: var(--gold-2);
+}
+
+@media (max-width: 480px) {
+  .nav__mark { width: 32px; height: 32px; }
+  .nav__wordmark { font-size: 1rem; letter-spacing: 0.12em; }
 }
 
 .nav__links {
@@ -1496,6 +1514,9 @@ img {
   --accent: #d97706;
   --accent-hover: #b45309;
   --accent-quiet: #8a6a4f;
+  --gold-1: #b8893a;
+  --gold-2: #94681f;
+  --gold-3: #6b4a12;
 }
 
 [data-theme="light"] ::selection {
