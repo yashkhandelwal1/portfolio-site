@@ -141,6 +141,14 @@ img {
   color: var(--text-primary);
   transition: color var(--transition);
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__mark {
+  flex-shrink: 0;
+  color: var(--accent);
 }
 
 .nav__logo:hover {
