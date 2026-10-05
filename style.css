@@ -2177,3 +2177,26 @@ img {
     max-width: 170px;
   }
 }
+
+/* --- BUILT AND WORKING (live projects, homepage) --- */
+.built-card {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: 40px;
+  align-items: center;
+}
+.built-card__shot { display: block; min-width: 0; }
+.built-card__shot .browser-frame { width: 100%; }
+.built-card__shot img { display: block; width: 100%; height: auto; }
+.built-card__body { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; min-width: 0; }
+.built-card__title { font-size: var(--fs-h3); line-height: var(--lh-title); letter-spacing: var(--ls-heading); margin: 0; }
+.built-card__title a { color: var(--text-primary); text-decoration: none; }
+.built-card__title a:hover { color: var(--accent); }
+.built-card__tagline { color: var(--accent); font-weight: 500; margin: 0; }
+.built-card__desc { color: var(--text-secondary); margin: 0; }
+.built-card .work-card__metrics { gap: 32px; flex-wrap: wrap; width: 100%; padding: 20px 0; margin: 4px 0 0; }
+.built-card .metric__value { font-size: clamp(1.5rem, 2.6vw, 2rem); }
+.built-card__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
+@media (max-width: 860px) {
+  .built-card { grid-template-columns: 1fr; gap: 24px; }
+}
