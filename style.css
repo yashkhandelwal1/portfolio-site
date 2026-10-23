@@ -2230,3 +2230,12 @@ img {
   margin: 0 0 1.1rem;
   line-height: 1.55;
 }
+
+/* "For your business" line on live-project cards (23 Oct 2026) */
+.built-card__foryou {
+  border-left: 2px solid var(--accent);
+  padding-left: 0.9rem;
+  margin: 0.25rem 0 1rem;
+  line-height: 1.55;
+}
+.built-card__foryou strong { color: var(--accent); font-weight: 600; }
