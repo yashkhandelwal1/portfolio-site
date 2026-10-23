@@ -2209,3 +2209,24 @@ img {
 @media (max-width: 760px) {
   .built-card + .built-card { margin-top: 56px; padding-top: 56px; }
 }
+
+/* Case-study project label above problem-led titles (23 Oct 2026) */
+.work-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+/* Owner-voice line above the fit list */
+.fit-card__quote {
+  font-style: italic;
+  color: var(--text-muted);
+  border-left: 2px solid var(--accent);
+  padding-left: 0.9rem;
+  margin: 0 0 1.1rem;
+  line-height: 1.55;
+}
